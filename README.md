@@ -5,4 +5,4 @@ ractive-tabs
 
 ```cd ractive-tabs```
 
-```open index.html```
+```open index.html in the browser```
