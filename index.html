@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ractive Tabs</title>
+</head>
+<body>
+
+<div id="body"></div>
+
+<script id="Tabs" type="text/ractive">
+    <TabsComponent>
+
+        <TabsLink target="pane1">Tab 1</TabsLink>
+        <TabsLink target="pane2">Tab 2</TabsLink>
+        <TabsLink target="pane3">Tab 3</TabsLink>
+        <TabsLink target="pane4">Tab 4</TabsLink>
+
+        <TabsPane id="pane1" active="true"><h2>First panel content goes here...</h2></TabsPane>
+        <TabsPane id="pane2"><h2>Second panel content goes here...</h2></TabsPane>
+        <TabsPane id="pane3"><h2>Third panel content goes here...</h2></TabsPane>
+        <TabsPane id="pane4"><h2>Fourth panel content goes here...</h2></TabsPane>
+
+    </TabsComponent>
+</script>
+
+<script src='//cdn.ractivejs.org/latest/ractive.js'></script>
+<script src='TabsComponent.js'></script>
+
+</body>
+</html>
